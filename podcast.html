@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pipeloluwa Aremo Podcast</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin-left: 200px;
+            font-family: sans-serif;
+            color: #060606;
+        }
+        
+        header {
+            margin: 0 0 30px 70px;
+        }
+        
+        main {
+            width: 50%;
+            font-family: "verdana";
+        }
+        
+        .video {
+            border-radius: 10px;
+            margin-left: 50px;
+            width: 45vw;
+            height: auto;
+        }
+        
+        h1 {
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        
+        .light,
+        span,
+        .timer {
+            color: #868686;
+        }
+        
+        .light {
+            font-size: 12px;
+            margin-bottom: 20px;
+            margin-top: 0px;
+        }
+        
+        header p {
+            margin-top: 0;
+        }
+        
+        section {
+            margin-top: 24px;
+            display: flex;
+            align-items: start;
+            gap: 24px;
+        }
+        
+        h4 {
+            margin: 0 auto;
+        }
+        
+        section p {
+            line-height: 1.8;
+            letter-spacing: 2px;
+        }
+        
+        .firstp {
+            color: #464343;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Faustina &lt &gt John (User Interview)</h1>
+
+        <p class="light">Created on Sep 17, 11:54 AM</p>
+
+        <p>
+            <strong>Project:</strong>
+            <span class="firstp">Staying connected in post-pandemic world</span>
+        </p>
+
+        <p>
+            <strong>Moderator:</strong>
+            <span> Speaker 1</span>
+        </p>
+        <p>
+            <strong>Participant:</strong>
+            <span>Speaker 2</span>
+        </p>
+    </header>
+
+    <main>
+        <video class="video" controls loop>
+            <source src="podcast.mp4" type="video/mp4" />
+        </video>
+        <section>
+            <div class="timer">00:05</div>
+            <div>
+                <h4>Speaker 1</h4>
+                <p>
+                    How do you feel about the number of video calls you and your team are conducting
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div class="timer">00:05</div>
+            <div>
+                <h4>Speaker 2</h4>
+                <p>
+                    The number of video calls has grown exponentially since our team moved to a remote environment. I feel emotionally and physically drained by the number of calls
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
